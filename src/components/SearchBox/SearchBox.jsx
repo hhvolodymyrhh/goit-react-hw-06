@@ -15,7 +15,7 @@ const SearchBox = () => {
         name="searchInput"
         value={selectFilter}
         onChange={e => dispatch(changeFilter(e.target.value))}
-        placeholder='Find contacts by name'
+        placeholder='Find contacts'
       ></input>
     </div>
   );
